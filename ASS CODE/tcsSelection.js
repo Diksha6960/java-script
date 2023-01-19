@@ -1,6 +1,6 @@
 
 console.log(`-----------------Interview Result-------------------------`);
-console.log(`                              `);
+console.log(`                 \n             `);
 
 var tcsSelection = function(_gradScore,_hscScore,_sscScore,_candidateName)
 {
@@ -13,7 +13,7 @@ if (_gradScore>=70 || _hscScore>=80 || _sscScore>=90) {
 }
 }
 tcsSelection(80,86,90,"Diksha");
-console.log(`                              `);
+console.log(`       \n                       `);
 tcsSelection(70,65,55,"Dhanshree");
-console.log(`                              `);
+console.log(`    \n                          `);
 tcsSelection(60,79,88,"Sakshi")

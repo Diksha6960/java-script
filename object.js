@@ -63,15 +63,19 @@ const student = {
     age: 50,
     marks: {
         science: 70,
-        math: 90,
-        english: 87,
-add: function() {
-           return this.science+this.math+this.english;
-        }
-
-
+        math: 90,\
+      
+        english: 87,}
     }
-}
+student.add:function() {
+           return this.science+this.math+this.english;
+
+        }
+        console.log(student );
+
+
+    
+
 console.log(`Accessing an Nested object property`);
 const scienceMark =  student.marks.science;
 console.log(scienceMark);
